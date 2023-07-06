@@ -113,7 +113,15 @@
  
  img {}
  
- a {}
+ a {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+ }
+
+ a:hover{
+    color: #0f0038 !important;
+ }
  
  a:focus {
      outline-width: 0px !important;
