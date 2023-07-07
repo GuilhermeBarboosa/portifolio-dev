@@ -87,6 +87,7 @@
      margin: 0% !important;
      padding: 15% !important;
      padding-top: 0px !important;
+     padding-bottom: 5% !important;
  }
  
  li {
@@ -323,4 +324,8 @@
     margin-bottom: 2px !important;
     padding-bottom: 2px !important;
     padding-left: 2px !important;
+}
+
+.projetos{
+    padding: 20px 15px 20px 15px !important;
 }
