@@ -9,323 +9,345 @@
 /*
  * Reset
  */
- html,
- body,
- div,
- span,
- table,
- thead,
- tbody,
- tfoot,
- tr,
- th,
- td,
- form,
- label,
- input,
- textarea,
- select,
- option,
- button,
- ul,
- li,
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- p,
- img,
- a,
- pre,
- code,
- iframe {
-     font-family: 'Khand', sans-serif;
- }
- 
- html {
-     font-family: 'Khand', sans-serif;
- }
- 
- body {
-     background-color: black !important;
- }
- 
- div {}
- 
- span {}
- 
- table {}
- 
- thead {}
- 
- tbody {}
- 
- tfoot {}
- 
- tr {}
- 
- th {}
- 
- td {}
- 
- form {}
- 
- label {}
- 
- input {}
- 
- textarea {}
- 
- select {}
- 
- option {}
- 
- ul {
-     color: white;
-     margin: 0% !important;
-     padding: 15% !important;
-     padding-top: 0px !important;
-     padding-bottom: 5% !important;
- }
- 
- li {
-     color: white;
-     font-weight: 400;
-     font-size: 20px;
-     line-height: 35px;
- }
- 
- h1 {}
- 
- h2 {}
- 
- h3 {
-     color: white !important;
- }
- 
- h4 {}
- 
- h5 {}
- 
- h6 {}
- 
- p {
-     color: white;
- }
- 
- img {}
- 
- a {
-    font-weight: 400 !important;
-    font-size: 20px !important;
-    text-decoration: none !important;
- }
+html,
+body,
+div,
+span,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+form,
+label,
+input,
+textarea,
+select,
+option,
+button,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+a,
+pre,
+code,
+iframe {
+  font-family: "Khand", sans-serif;
+}
 
- a:hover{
-    color: #0f0038 !important;
- }
- 
- a:focus {
-     outline-width: 0px !important;
-     outline-style: solid;
-     outline-color: #bbdefb;
- }
- 
- .navbar {
-     background-color: #0F0038;
-     /* background-color: #ff0000; */
- }
- 
- .menu-screen {
-     font-style: normal;
-     font-weight: 400;
-     font-size: 16px;
-     line-height: 24px;
- }
- 
- .info {
-     background-image: url('../assets/homedev-2.jpg');
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: 100%;
- }
- 
- .info-mobile {
-     background-image: url('../assets/homedev-2.jpg');
-     background-repeat: no-repeat;
-     background-position: center;
-     height: 100%;
- }
- 
+html {
+  font-family: "Khand", sans-serif;
+}
+
+body {
+  background-color: black !important;
+}
+
+div {
+}
+
+span {
+}
+
+table {
+}
+
+thead {
+}
+
+tbody {
+}
+
+tfoot {
+}
+
+tr {
+}
+
+th {
+}
+
+td {
+}
+
+form {
+}
+
+label {
+}
+
+input {
+}
+
+textarea {
+}
+
+select {
+}
+
+option {
+}
+
+ul {
+  color: white;
+  margin: 0% !important;
+  padding: 15% !important;
+  padding-top: 0px !important;
+  padding-bottom: 5% !important;
+}
+
+li {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+  color: white !important;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+p {
+  color: white;
+}
+
+img {
+}
+
+a {
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #0f0038 !important;
+}
+
+a:focus {
+  outline-width: 0px !important;
+  outline-style: solid;
+  outline-color: #bbdefb;
+}
+
+.navbar {
+  background-color: #0f0038;
+  /* background-color: #ff0000; */
+}
+
+.menu-screen {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.info {
+  background-image: url("../assets/homedev-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.info-mobile {
+  background-image: url("../assets/homedev-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
 .img-redes {
-     margin: 10px;
-     border: 2px solid #FFFFFF;
-     border-radius: 70px;
-     background-color: rgba(0, 0, 0, 0.6);
-     padding: 20px;
-     color: #ffffff;
- }
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  color: #ffffff;
+}
 
- .img-redes-color{
-    width: 30px;
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg) brightness(99%) contrast(99%);
- }
- 
- .img-redes-mobile {
-     margin: 10px;
-     border: 2px solid #FFFFFF;
-     border-radius: 70px;
-     background-color: rgba(0, 0, 0, 0.6);
-     padding: 10px;
-     color: #0026ff;
-     margin-bottom: 35px;
- }
- 
- .img-redes-mobile svg {
-     width: 30px;
- }
- 
- h1 {
-     font-family: 'Khand' !important;
-     font-style: normal !important;
-     font-weight: 300 !important;
-     font-size: 130px !important;
-     line-height: 75px !important;
-     color: white !important;
-     padding-bottom: 10px !important;
- }
- 
- .h1-mobile {
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 300;
-     font-size: 110px;
-     line-height: 75px;
-     color: white;
-     padding-bottom: 20px;
- }
- 
- .title {
-     opacity: 1;
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 55px;
-     line-height: 52px;
-     color: white;
- }
- 
- .title-mobile {
-     opacity: 1;
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 40px;
-     line-height: 52px;
-     color: white;
- }
- 
- .sobremim {
-     color: black;
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 1.5em;
-     text-align: justify;
-     padding: 70px;
-     padding-top: 30px;
- }
- 
- .sobremim-mobile{
-     color: black;
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 1.5em;
-     text-align: justify;
-     padding: 70px;
-     padding-top: 30px;
-     padding-bottom: 15px;
- }
- 
- .github {
-     width: 15em;
-     height: auto;
-     border-radius: 200px;
- }
- 
- .link-git {
-     color: #4200FF;
-     font-family: 'Khand';
-     font-style: normal;
-     font-weight: 400;
-     font-size: 35px;
-     line-height: 80px;
- }
- 
- .cursos {
-     margin-bottom: 20px;
-     padding-top: 40px;
- }
- 
- .logo-linguagens {
-     width: 70px !important;
-     height: 70px !important;
-     fill: currentColor !important;
-     margin-top: 55px !important;
- 
- }
- 
- .logo-linguagens-mobile {
-     width: 50px !important;
-     height: 50px !important;
-     margin: 40px !important;
-     margin-bottom: 0 !important;
- }
- 
- #logo-div {
-     margin-bottom: 35px;
-     text-align: center;
- }
- 
- #logo-div:hover {
-     transition: 0.8s;
-     transform: translateY(-15px);
- }
- 
- .footer {
-     border-bottom: 1px solid blue;
-     margin: 20px;
- }
- 
+.img-redes-color {
+  width: 30px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(72deg)
+    brightness(99%) contrast(99%);
+}
+
+.img-redes-mobile {
+  margin: 10px;
+  border: 2px solid #ffffff;
+  border-radius: 70px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  color: #0026ff;
+  margin-bottom: 35px;
+}
+
+.img-redes-mobile svg {
+  width: 30px;
+}
+
+h1 {
+  font-family: "Khand" !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  font-size: 130px !important;
+  line-height: 75px !important;
+  color: white !important;
+  padding-bottom: 10px !important;
+}
+
+.h1-mobile {
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 110px;
+  line-height: 75px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.title {
+  opacity: 1;
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 52px;
+  color: white;
+}
+
+.title-mobile {
+  opacity: 1;
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: white;
+}
+
+.sobremim {
+  color: black;
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 70px;
+  padding-top: 30px;
+}
+
+.sobremim-mobile {
+  color: black;
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  text-align: justify;
+  padding: 70px;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.github {
+  width: 15em;
+  height: auto;
+  border-radius: 200px;
+}
+
+.link-git {
+  color: #4200ff;
+  font-family: "Khand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 80px;
+}
+
+.cursos {
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.logo-linguagens {
+  width: 70px !important;
+  height: 70px !important;
+  fill: currentColor !important;
+  margin-top: 55px !important;
+}
+
+.logo-linguagens-mobile {
+  width: 50px !important;
+  height: 50px !important;
+  margin: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+#logo-div {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+#logo-div:hover {
+  transition: 0.8s;
+  transform: translateY(-15px);
+}
+
+.footer {
+  border-bottom: 1px solid blue;
+  margin: 20px;
+}
+
 .btn {
-    border-radius: 100px !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-    height: 50px;
-    background-color: #1900ff !important;
-    text-decoration: none;
+  border-radius: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #1900ff !important;
+  text-decoration: none;
 }
 .btn::after {
-    font-size: 32px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    transition: margin-top 250ms;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  transition: margin-top 250ms;
 }
 
-.navbar-nav{
-    margin-bottom: 2px !important;
-    padding-bottom: 2px !important;
-    padding-left: 2px !important;
+.navbar-nav {
+  margin-bottom: 2px !important;
+  padding-bottom: 2px !important;
+  padding-left: 2px !important;
 }
 
-.projetos{
-    padding: 20px 15px 20px 15px !important;
+.projetos,
+.projetos-mobile {
+  padding: 20px 15px 20px 15px !important;
 }
