@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.code-title {
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+.jetbrains {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  /* font-weight: 400;
+  font-style: normal; */
+}
+
+.text-color-primary{
+  color: #001aff;
+}
+
+.bg-secundary{
+  background-color: #151515;
+}

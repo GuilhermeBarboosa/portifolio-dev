@@ -1,0 +1,22 @@
+.body {
+  background-color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-page {
+  width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+  .content-page {
+    width: 100%;
+  }
+
+  .body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
+}

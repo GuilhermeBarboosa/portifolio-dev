@@ -1,0 +1,31 @@
+<header class="flex md:flex-row flex-col justify-between">
+  <div class="flex justify-between">
+    <h1 class="code-title jaro text-color-primary ml-5 md:ml-0">CODE</h1>
+
+    <div class="flex p-5">
+      <i class='bx bx-menu text-white text-4xl md:hidden cursor-pointer' (click)="changeMenu()"></i>
+    </div>
+  </div>
+
+  <ul [ngClass]="{ 'menu-open': showMenu, 'menu-closed': !showMenu }"
+  class="jetbrains justify-center items-center text-white bg-secundary py-5 pl-2 md:p-0 md:bg-black md:flex">
+  <li>
+    <a href="#">Sobre</a>
+  </li>
+  <li>
+    <a href="#">Cursos</a>
+  </li>
+  <li>
+    <a href="#">Experiência</a>
+  </li>
+  <li>
+    <a href="#">Linguagens</a>
+  </li>
+  <li>
+    <a href="#">Projeto</a>
+  </li>
+</ul>
+
+
+
+</header>

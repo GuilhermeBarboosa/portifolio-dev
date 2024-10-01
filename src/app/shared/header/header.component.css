@@ -1,0 +1,39 @@
+.code-title {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+li {
+  list-style-type: none;
+  padding: 0px 5px 0px 5px;
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  color: #6070ff;
+}
+
+.menu-open {
+  max-height: 500px; /* Defina um valor suficiente para o tamanho total do menu */
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.5s ease;
+}
+
+.menu-closed {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden; /* Esconde o conteúdo enquanto o menu está fechado */
+  transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+  ul {
+    transition: all 0.5s ease;
+  }
+
+  li {
+    padding: 2px 0px 2px 0px;
+  }
+}
