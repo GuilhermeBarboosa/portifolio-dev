@@ -11,34 +11,18 @@
         <h3 class="text-5xl">
           Meu nome é
           <span class="block text-color-primary">
-            {{'Guilherme Barbosa'}}
-            <!-- {{displayedText}} -->
+            <div class="tw"></div>
           </span>
         </h3>
       </div>
 
-      <div class="col hidden md:flex justify-center items-center">
+      <div class="col hidden md:flex justify-end items-center">
         <img src="../../../assets/bg.png" alt="background" class="md:w-2/4">
       </div>
     </div>
 
 
-    <div class="grid md:grid-cols-2 mb-5 md:mb-10">
-      <div class="col flex justify-center md:justify-start items-center">
-
-        <div class=" jetbrains text-white w-3/4 text-lg text-center md:text-left mb-5 md:mb-10">
-          <p>
-            Formado em Análise e Desenvolvimento de Sistemas na IFTM.
-          </p>
-          <p>
-            Estou atuando como Full Stack com Angular e Spring Boot.
-          </p>
-          <p>
-            Comprometido em aprender e aplicar novas tecnologias.
-          </p>
-        </div>
-
-      </div>
+    <div id="sobre" class="grid md:grid-cols-2 mb-5 md:mb-10 p-16 bg-secundary rounded-xl border-2 border-gray-800">
       <div class="col ">
         <div class="flex flex-col justify-center items-center">
 
@@ -50,95 +34,128 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
-<div class="grid md:grid-cols-2 py-10 w-full bg-secundary">
-  <div class="col md:border-r border-white jetbrains">
-    <h1 class="text-center text-white text-lg">Cursos</h1>
+      <div class="col flex justify-center md:justify-start items-center">
 
-    <div class="md:h-full m-auto list-disc text-white flex flex-col items-center justify-center mt-4 mb-5 md:mb-10">
-      <ul class="">
-        <li>Python - IFSUL</li>
-        <li>JavaScript - Alura</li>
-        <li>Linguagem PHP - Alura</li>
-        <li>Spring Boot - AlgaWorks</li>
-        <li>Angular - Udemy</li>
-        <li>Node - Udemy</li>
-      </ul>
-
-    </div>
-
-  </div>
-
-
-  <div class="col flex justify-center items-center jetbrains">
-    <div class="text-center">
-      <h1 class="text-center text-white text-lg">Experiência</h1>
-
-      <ul class="flex flex-col items-center justify-center space-y-4 mt-4">
-        <li class="flex justify-center mt-2"><img src="../../../assets/cni-logo.png" alt="" class="w-1/3"></li>
-        <li class="flex justify-center mt-2"><img src="../../../assets/graodireto.png" alt="" class="w-1/3"></li>
-        <li class="flex justify-center mt-2"><img src="../../../assets/codiub-logo.png" alt="" class="w-1/4"></li>
-      </ul>
-    </div>
-  </div>
-
-
-</div>
-
-<div class="body w-full">
-  <div class="content-page ">
-    <div class="grid">
-      <div class="col flex flex-col justify-center items-center jetbrains pt-5 md:pt-10">
-
-        <h1 class="text-center text-white text-lg">Linguagens</h1>
-
-
-        <div class="flex flex-col justify-center items-center text-center jetbrains text-white">
-          <div class="grid md:grid-cols-3 md:gap-32 ">
-            <div class="col">
-              <card-language [language]="'JavaScript'" [level]="'Intermediário'"
-                [flag]="'devicon-javascript-plain'"></card-language>
-            </div>
-
-            <div class="col">
-              <card-language [language]="'Java'" [level]="'Intermediário'"
-                [flag]="'devicon-java-plain'"></card-language>
-            </div>
-
-            <div class="col">
-              <card-language [language]="'PHP'" [level]="'Iniciante'" [flag]="'devicon-php-plain'"></card-language>
-            </div>
+        <div class=" flex flex-col items-center jetbrains text-white w-3/4 text-lg text-center md:text-left">
+          <div>
+            <p>
+              Formado em Análise e Desenvolvimento de Sistemas na IFTM.
+            </p>
+            <p>
+              Estou atuando como Full Stack com Angular e Spring Boot.
+            </p>
+            <p>
+              Comprometido em aprender e aplicar novas tecnologias.
+            </p>
           </div>
 
-          <div class="grid md:grid-cols-3 md:gap-32 ">
-            <div class="col">
-              <card-language [language]="'Spring Boot'" [level]="'Intermediário'"
-                [flag]="'devicon-spring-original'"></card-language>
-            </div>
 
+          <div class="grid grid-cols-5 md:gap-5 gap-16 info-card">
             <div class="col">
-              <card-language [language]="'Angular'" [level]="'Intermediário'"
-                [flag]="'devicon-angular-plain'"></card-language>
+              <a href="https://wa.me/5534984039344"> <i class='bx bxl-whatsapp'></i></a>
             </div>
-
             <div class="col">
-              <card-language [language]="'NodeJS'" [level]="'Iniciante'"
-                [flag]="'devicon-nodejs-plain-wordmark'"></card-language>
+              <a href="https://www.linkedin.com/in/guilhermebarbosa-dev/"> <i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="col">
+              <a href="mailto:guilherme.strg@gmail.com">
+                <i class='bx bxl-gmail'></i>
+              </a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/GuilhermeBarboosa">
+                <i class='bx bxl-github'></i>
+              </a>
             </div>
           </div>
         </div>
-
 
       </div>
     </div>
   </div>
 </div>
 
-<div class="body w-full">
-  <div class="content-page">
-    <footer-component></footer-component>
+<div id="cursos" class="body w-full pt-5 pb-5 md:pt-5 md:pb-10">
+  <div class="content-page ">
+    <div class="grid md:grid-cols-2">
+      <div class="col md:border-r border-white jetbrains">
+        <h1 class="text-center text-white text-lg">Cursos</h1>
+
+        <div class="md:h-full m-auto list-disc text-white flex flex-col items-center justify-center mt-4 mb-5 md:mb-10">
+          <ul class="">
+            <li>Python - IFSUL</li>
+            <li>JavaScript - Alura</li>
+            <li>Linguagem PHP - Alura</li>
+            <li>Spring Boot - AlgaWorks</li>
+            <li>Angular - Udemy</li>
+            <li>Node - Udemy</li>
+          </ul>
+
+        </div>
+
+      </div>
+      <div class="col flex justify-center items-center jetbrains">
+        <div class="text-center">
+          <h1 class="text-center text-white text-lg ">Experiência</h1>
+
+          <ul class="flex flex-col items-center justify-center space-y-4 mt-4">
+            <li class="flex justify-center mt-2"><img src="../../../assets/cni-logo.png" alt="" class="w-1/3"></li>
+            <li class="flex justify-center mt-2"><img src="../../../assets/graodireto.png" alt="" class="w-1/3"></li>
+            <li class="flex justify-center mt-2"><img src="../../../assets/codiub-logo.png" alt="" class="w-1/4"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+<div id="linguagens" class="grid w-full bg-secundary">
+  <div class="grid">
+    <div class="col flex flex-col justify-center items-center jetbrains pt-5 md:pt-10 md:pb-10">
+
+      <h1 class="text-center text-white text-lg mb-5 md:mb-10">Linguagens</h1>
+
+
+      <div class="flex flex-col justify-center items-center text-center jetbrains text-white">
+        <div class="grid md:grid-cols-3 md:gap-32 ">
+          <div class="col">
+            <card-language [language]="'JavaScript'" [level]="'Intermediário'"
+              [flag]="'devicon-javascript-plain'"></card-language>
+          </div>
+
+          <div class="col">
+            <card-language [language]="'Java'" [level]="'Intermediário'" [flag]="'devicon-java-plain'"></card-language>
+          </div>
+
+          <div class="col">
+            <card-language [language]="'PHP'" [level]="'Iniciante'" [flag]="'devicon-php-plain'"></card-language>
+          </div>
+        </div>
+
+        <div class="grid md:grid-cols-3 md:gap-32 ">
+          <div class="col">
+            <card-language [language]="'Spring Boot'" [level]="'Intermediário'"
+              [flag]="'devicon-spring-original'"></card-language>
+          </div>
+
+          <div class="col">
+            <card-language [language]="'Angular'" [level]="'Intermediário'"
+              [flag]="'devicon-angular-plain'"></card-language>
+          </div>
+
+          <div class="col">
+            <card-language [language]="'NodeJS'" [level]="'Iniciante'"
+              [flag]="'devicon-nodejs-plain-wordmark'"></card-language>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>
+
+<div id="contato">
+  <footer-component></footer-component>
 </div>

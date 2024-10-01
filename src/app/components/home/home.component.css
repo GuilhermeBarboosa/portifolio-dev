@@ -9,6 +9,27 @@
   width: 70%;
 }
 
+.info-card {
+  i {
+    margin: 5px;
+    font-size: xx-large;
+    border: 3px solid #051074;
+    border-radius: 15%;
+    padding: 5px;
+    color: #011aff;
+    transition: all 0.5s ease;
+  }
+
+  i:hover {
+    cursor: pointer;
+    border: 3px solid #01083f;
+    color: #4153f5;
+
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .content-page {
     width: 100%;
