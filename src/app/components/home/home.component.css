@@ -7,6 +7,14 @@
 
 .content-page {
   width: 70%;
+  z-index: 1;
+}
+
+.img-bg{
+  position: absolute;
+  top: -50px;
+  right: 150px;
+  opacity: 0.4;
 }
 
 .info-card {
